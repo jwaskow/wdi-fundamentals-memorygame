@@ -1,0 +1,57 @@
+nav {
+	background: #808080;
+}
+a {
+	background: #ffbf00;
+	color: #ffffff;
+	padding: 35px;
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+a:hover {
+	background: #ee5f3c;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+h1 {
+	color: rgb(2, 132, 130);
+}
+h2 {
+	color: #ffd700;
+}
+h1,h2 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+}
+.card {
+	height: 200px;
+	width: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background: #FFFF00;
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+.name {
+	color: #ff0000;
+}
+footer {
+	background: #808080;
+	text-align: center;
+}
