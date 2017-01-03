@@ -14,3 +14,13 @@ if (cardThree === cardFour) {
 else {
 	alert('Sorry, try again.');
 }
+//using js to create cards
+var createCards = function() {
+	var gameBoard = document.getElementById('game-board');
+	for (var i=0; i<4; i++) {
+		var cardDiv = document.createElement('div');
+		cardDiv.className = 'card';
+		gameBoard.appendChild(cardDiv);
+	}
+};
+createCards();
